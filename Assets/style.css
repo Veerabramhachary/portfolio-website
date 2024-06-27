@@ -5,6 +5,7 @@ section.main{
     background-image:linear-gradient(rgba(9,0,777,0.66),rgba(777,0,0,0.66),rgba(9,777,0,0.66)) ,url("anime1.jpg");
     opacity: (0.7);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 10px 0;
 }
