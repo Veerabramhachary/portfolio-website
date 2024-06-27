@@ -1,0 +1,75 @@
+
+section.main{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(9,0,777,0.66),rgba(777,0,0,0.66),rgba(9,777,0,0.66)) ,url("anime1.jpg");
+    opacity: (0.7);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    
+
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+li a {
+    font-family: inter;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo {
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    padding-left: 30px ;
+}
+.container {
+    display: inline-block;
+    position: relative;
+    text-wrap: 10px;
+    left: 30px;
+    top: 100px;
+    width: 1000px;
+
+}
+.container h1 {
+    font-size: 80px;
+    color: white;
+    line-height: 100px;
+    text-shadow: -2px 0 0 black,  /* Left shadow */
+               2px 0 0 black,  /* Right shadow */
+               0 -2px 0 black,  /* Top shadow */
+               0 2px 0 black; /* Bottom shadow */
+}
+
+.container p.more-info {
+    color: white;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1.5px solid red;
+
+}
+
+li a {
+    pointer-events: auto;
+}
+
+section.about-us {
+width: 100%;
+height: 910px;
+background-color: gray;
+}
