@@ -1,16 +1,18 @@
 body{
+    height: 100%;
     font-family: inter;
     scroll-behavior: smooth;
+
 }
 section.main{
     min-width: 1200px;
-    max-width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(9,0,777,0.66),rgba(777,0,0,0.66),rgba(9,777,0,0.66)) ,url("anime1.jpg");
     opacity: 0.9;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow: hidden;
     padding: 10px 0;
 }
 nav {
@@ -25,6 +27,7 @@ nav {
 nav ul li {
     display: inline-block;
     margin: 20px;
+    flex: 1;
 }
 
 li a {
@@ -76,7 +79,6 @@ li a {
 
 .container2{
     min-width: 1200px;
-    max-width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: space-evenly;
